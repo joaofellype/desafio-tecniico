@@ -1,0 +1,27 @@
+.div-table{
+
+    background-color: #F7F7F7;
+    table{
+        width: 750px;
+    }
+}
+.subtotal{
+    p:nth-child(2) {
+        font-size: 18px;
+        padding-top: 50px;
+        
+    }
+    p:nth-child(1) {
+        font-weight: bold;
+            font-size: 18px;
+        margin-left: 500px;
+        padding-top: 50px;
+    }
+}
+.checkout{
+
+    button{
+        margin-left: 560px;
+        width: 120px;
+    }
+}

@@ -1,0 +1,20 @@
+.form-register {
+  background-color: #ddd;
+
+  .form-floating {
+    input {
+      width: 450px;
+    }
+  }
+
+  button {
+    height: 50px;
+
+    &:disabled {
+      background-color: #c0c0c0;
+      border-color: transparent;
+      pointer-events: all;
+      cursor: no-drop;
+    }
+  }
+}

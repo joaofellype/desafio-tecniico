@@ -1,0 +1,36 @@
+.content-profile {
+  .line + .line {
+    margin-top: 20px;
+  }
+
+  width: 500px;
+  min-height: calc(100vh - 60px);
+  border: 1px solid rgba(51, 51, 51, 0.219);
+  border-bottom: none;
+  background-color: #f3f3f3;
+
+  > div:nth-child(1) {
+    p {
+      font-size: 40px;
+    }
+    > div {
+      height: 5px;
+      width: 150px;
+      background-color: pink;
+      bottom: -10px;
+    }
+  }
+
+  > div:not(:nth-child(1)) {
+    > div:nth-child(1) {
+      width: max-content;
+      border-bottom: 2px solid #333;
+      font-size: 24px;
+
+      i {
+        font-size: 18px;
+        margin-top: 2px;
+      }
+    }
+  }
+}

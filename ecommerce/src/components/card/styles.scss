@@ -1,0 +1,27 @@
+.card-product {
+  width: 240px;
+  margin: 20px auto !important;
+  transition: all 0.2s;
+
+  img {
+    height: 150px;
+    transition: all 0.2s;
+    object-fit: cover;
+  }
+
+  > div {
+    p:nth-child(1) {
+      font-weight: bold;
+    }
+  }
+
+  &:hover {
+    transform: scale(1.05, 1.05);
+    border-radius: 10px !important;
+
+    img {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+  }
+}

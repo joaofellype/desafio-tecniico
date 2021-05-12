@@ -1,0 +1,14 @@
+.address {
+    div:nth-child(2) {
+        background-color: #ddd;
+
+        button {
+            box-shadow: none;
+            background-color: #4444b8;
+        }
+    }
+    
+    > button {
+        background-color: #ddd;
+    }
+}

@@ -1,0 +1,14 @@
+.resumo-pedido {
+    width: 400px !important;
+
+    div:nth-child(1) {
+        border-bottom: 1px solid #ddd;
+    }
+
+    .total{
+        p {
+            font-size: 24px;
+            color: rgb(128, 126, 126);
+        }
+    }
+}
